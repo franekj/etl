@@ -16,7 +16,7 @@
 <entry key="has_fs_port" type="xboolean" value="false"/>
 <entry key="overwritten_by_variable" type="xboolean" value="false"/>
 <entry key="convenience_fs_category" type="xstring" value="RELATIVE"/>
-<entry key="relative_to" type="xstring" value="knime.workflow"/>
+<entry key="relative_to" type="xstring" value="knime.mountpoint"/>
 <entry key="mountpoint" type="xstring" value="LOCAL"/>
 <entry key="custom_url_timeout" type="xint" value="1000"/>
 <entry key="connected_fs" type="xboolean" value="true"/>
@@ -24,8 +24,8 @@
 <config key="path">
 <entry key="location_present" type="xboolean" value="true"/>
 <entry key="file_system_type" type="xstring" value="RELATIVE"/>
-<entry key="file_system_specifier" type="xstring" value="knime.workflow"/>
-<entry key="path" type="xstring" value="../input.xlsx"/>
+<entry key="file_system_specifier" type="xstring" value="knime.mountpoint"/>
+<entry key="path" type="xstring" value="testovaci_etl/input.xlsx"/>
 </config>
 <config key="filter_mode_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -65,7 +65,7 @@
 <entry key="read_to_row" type="xstring" value=""/>
 </config>
 <config key="table_spec_config_Internals">
-<entry key="root_path_Internals" type="xstring" value="../input.xlsx"/>
+<entry key="root_path_Internals" type="xstring" value="testovaci_etl/input.xlsx"/>
 <config key="datatable_spec_Internals">
 <entry key="spec_name" type="xstring" value="default"/>
 <entry key="number_columns" type="xint" value="10"/>
@@ -192,7 +192,7 @@
 </config>
 <config key="file_paths_Internals">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="../input.xlsx"/>
+<entry key="0" type="xstring" value="testovaci_etl/input.xlsx"/>
 </config>
 <config key="individual_specs_Internals">
 <config key="individual_spec_0">

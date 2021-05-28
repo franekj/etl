@@ -273,9 +273,10 @@ I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
                      clip-path="url(#clipPath10)" points=" 128 34 137 38 128 43"
                      stroke="none"/>
         </g>
-        <g fill="rgb(150,150,150)" text-rendering="optimizeLegibility"
-           font-family="&apos;Segoe UI&apos;" stroke-linecap="butt"
-           stroke="rgb(150,150,150)">
+        <g stroke-linecap="butt" fill="rgb(75,75,75)"
+           text-rendering="optimizeLegibility"
+           font-family="&apos;Segoe UI&apos;" stroke="rgb(75,75,75)"
+           stroke-width="2">
             <line clip-path="url(#clipPath11)" fill="none" x1="78" x2="86"
                   y1="38" y2="38"/>
             <line clip-path="url(#clipPath11)" fill="none" x1="86" x2="119"
