@@ -1,0 +1,39 @@
+
+{
+    "version": "4.3.2.v202103051236",
+    "created": "2021-05-28 12:18",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory#Excel Reader",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 537,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory#CSV Writer"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory#CSV Writer",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 43,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 142591,
+    "workflowsOpened": 1,
+    "remoteWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "launches": 4,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 100685,
+    "crashes": 0,
+    "properlyShutDown": true
+}
