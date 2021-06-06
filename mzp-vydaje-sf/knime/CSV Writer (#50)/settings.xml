@@ -80,7 +80,7 @@
 <entry key="custom_comment_text" type="xstring" value=""/>
 </config>
 <config key="encoding">
-<entry key="character_set" type="xstring" isnull="true" value=""/>
+<entry key="character_set" type="xstring" value="UTF-8"/>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
