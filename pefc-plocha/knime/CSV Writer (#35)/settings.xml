@@ -15,16 +15,17 @@
 <config key="file_system_chooser__Internals">
 <entry key="has_fs_port" type="xboolean" value="false"/>
 <entry key="overwritten_by_variable" type="xboolean" value="false"/>
-<entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
-<entry key="relative_to" type="xstring" value="knime.workflow.data"/>
+<entry key="convenience_fs_category" type="xstring" value="RELATIVE"/>
+<entry key="relative_to" type="xstring" value="knime.workflow"/>
 <entry key="mountpoint" type="xstring" value="LOCAL"/>
 <entry key="custom_url_timeout" type="xint" value="1000"/>
 <entry key="connected_fs" type="xboolean" value="true"/>
 </config>
 <config key="path">
 <entry key="location_present" type="xboolean" value="true"/>
-<entry key="file_system_type" type="xstring" value="LOCAL"/>
-<entry key="path" type="xstring" value="/home/andrea/cenia_star/KNIME_AD_2020/PEFC/pefc-plocha.csv"/>
+<entry key="file_system_type" type="xstring" value="RELATIVE"/>
+<entry key="file_system_specifier" type="xstring" value="knime.workflow"/>
+<entry key="path" type="xstring" value="../output.csv"/>
 </config>
 <config key="filter_mode_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -42,13 +43,11 @@
 <entry key="files_name_case_sensitive" type="xboolean" value="false"/>
 <entry key="files_name_filter_type" type="xstring" value="WILDCARD"/>
 <entry key="include_hidden_files" type="xboolean" value="false"/>
-<entry key="include_special_files" type="xboolean" value="true"/>
 <entry key="filter_folders_name" type="xboolean" value="false"/>
 <entry key="folders_name_expression" type="xstring" value="*"/>
 <entry key="folders_name_case_sensitive" type="xboolean" value="false"/>
 <entry key="folders_name_filter_type" type="xstring" value="WILDCARD"/>
 <entry key="include_hidden_folders" type="xboolean" value="false"/>
-<entry key="follow_links" type="xboolean" value="true"/>
 </config>
 </config>
 <entry key="create_missing_folders" type="xboolean" value="false"/>
@@ -85,28 +84,28 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory"/>
 <entry key="node-name" type="xstring" value="CSV Writer"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.3.3.v202105242122"/>
+<entry key="node-bundle-version" type="xstring" value="4.3.2.v202103021015"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.3.3.v202105242122"/>
+<entry key="node-feature-version" type="xstring" value="4.3.2.v202103021015"/>
 <config key="factory_settings"/>
 <config key="node_creation_config">
 <config key="File System Connection"/>
 <config key="Data Table"/>
 </config>
 <entry key="name" type="xstring" value="CSV Writer"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e9203535-9151-4d44-82fd-aa8279545fe6"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

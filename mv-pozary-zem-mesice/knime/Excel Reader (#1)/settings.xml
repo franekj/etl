@@ -15,16 +15,17 @@
 <config key="file_system_chooser__Internals">
 <entry key="has_fs_port" type="xboolean" value="false"/>
 <entry key="overwritten_by_variable" type="xboolean" value="false"/>
-<entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
-<entry key="relative_to" type="xstring" value="knime.workflow.data"/>
+<entry key="convenience_fs_category" type="xstring" value="RELATIVE"/>
+<entry key="relative_to" type="xstring" value="knime.workflow"/>
 <entry key="mountpoint" type="xstring" value="LOCAL"/>
 <entry key="custom_url_timeout" type="xint" value="1000"/>
 <entry key="connected_fs" type="xboolean" value="true"/>
 </config>
 <config key="path">
 <entry key="location_present" type="xboolean" value="true"/>
-<entry key="file_system_type" type="xstring" value="LOCAL"/>
-<entry key="path" type="xstring" value="/home/iomnukso/cenia_star2/KNIME_AD_2020/MV/Data_HZS_2020.xlsx"/>
+<entry key="file_system_type" type="xstring" value="RELATIVE"/>
+<entry key="file_system_specifier" type="xstring" value="knime.workflow"/>
+<entry key="path" type="xstring" value="../input"/>
 </config>
 <config key="filter_mode_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -50,7 +51,7 @@
 </config>
 </config>
 </config>
-<entry key="sheet_selection" type="xstring" value="NAME"/>
+<entry key="sheet_selection" type="xstring" value="FIRST"/>
 <entry key="sheet_name" type="xstring" value="mv-pozary-zem-mesice"/>
 <entry key="sheet_index" type="xint" value="0"/>
 <entry key="table_contains_column_names" type="xboolean" value="false"/>
@@ -62,64 +63,6 @@
 <entry key="read_to_column" type="xstring" value="A"/>
 <entry key="read_from_row" type="xstring" value="2"/>
 <entry key="read_to_row" type="xstring" value="16"/>
-</config>
-<config key="table_spec_config_Internals">
-<entry key="root_path_Internals" type="xstring" value="/home/iomnukso/cenia_star2/KNIME_AD_2020/MV/Data_HZS_2020.xlsx"/>
-<config key="datatable_spec_Internals">
-<entry key="spec_name" type="xstring" value="default"/>
-<entry key="number_columns" type="xint" value="1"/>
-<config key="column_spec_0">
-<entry key="column_name" type="xstring" value="A"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain"/>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-</config>
-<config key="file_paths_Internals">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="/home/iomnukso/cenia_star2/KNIME_AD_2020/MV/Data_HZS_2020.xlsx"/>
-</config>
-<config key="individual_specs_Internals">
-<config key="individual_spec_0">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="A"/>
-</config>
-</config>
-<config key="production_paths_Internals">
-<entry key="production_path_0_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
-<entry key="production_path_0_converter_src" type="xstring" value="java.lang.String"/>
-<entry key="production_path_0_converter_dst" type="xstring" value="String"/>
-<entry key="production_path_0_converter_name" type="xstring" value="String"/>
-<config key="production_path_0_converter_config"/>
-<entry key="production_path_0_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
-<entry key="production_path_0_producer_src" type="xstring" value="STRING"/>
-<entry key="production_path_0_producer_dst" type="xstring" value="java.lang.String"/>
-<entry key="production_path_0_producer_name" type="xstring" value="java.lang.String"/>
-<config key="production_path_0_producer_config"/>
-<entry key="num_production_paths_Internals" type="xint" value="1"/>
-</config>
-<config key="original_names_Internals">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="A"/>
-</config>
-<config key="positional_mapping_Internals">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xint" value="0"/>
-</config>
-<config key="keep_Internals">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xboolean" value="true"/>
-</config>
-<entry key="unknown_column_position_Internals" type="xint" value="1"/>
-<entry key="include_unknown_columns_Internals" type="xboolean" value="true"/>
-<entry key="enforce_types" type="xboolean" value="true"/>
-<entry key="column_filter_mode_Internals" type="xstring" value="UNION"/>
 </config>
 <config key="advanced_settings">
 <entry key="fail_on_differing_specs" type="xboolean" value="true"/>
@@ -142,7 +85,7 @@
 <entry key="x-coordinate" type="xint" value="853"/>
 <entry key="y-coordinate" type="xint" value="939"/>
 <entry key="width" type="xint" value="134"/>
-<entry key="height" type="xint" value="20"/>
+<entry key="height" type="xint" value="19"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
 <entry key="borderSize" type="xint" value="0"/>
 <entry key="borderColor" type="xint" value="16777215"/>
@@ -151,7 +94,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"/>
 <entry key="node-name" type="xstring" value="Excel Reader"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME POI (Excel) Plug-in"/>
@@ -168,19 +111,16 @@
 <config key="Data Table"/>
 </config>
 <entry key="name" type="xstring" value="Excel Reader"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 12, Cols: 1"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ea2057b2-e848-4fa0-9195-49b20f336faf"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
