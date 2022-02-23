@@ -52,7 +52,7 @@
 </config>
 </config>
 <entry key="sheet_selection" type="xstring" value="NAME"/>
-<entry key="sheet_name" type="xstring" value="ELEMENTÁRNÍ INDIKÁTOR - CKAN"/>
+<entry key="sheet_name" type="xstring" value="ELEMENTÁRNÍ INDIKÁTOR"/>
 <entry key="sheet_index" type="xint" value="0"/>
 <entry key="table_contains_column_names" type="xboolean" value="true"/>
 <entry key="column_names_row_number" type="xlong" value="1"/>
