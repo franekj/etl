@@ -383,17 +383,17 @@ I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
         <g fill="rgb(150,150,150)" text-rendering="optimizeLegibility"
            font-family="&apos;Segoe UI&apos;" stroke-linecap="butt"
            stroke="rgb(150,150,150)">
-            <line clip-path="url(#clipPath15)" fill="none" x1="78" x2="86"
-                  y1="38" y2="38"/>
-            <line clip-path="url(#clipPath15)" fill="none" x1="86" x2="139"
-                  y1="38" y2="38"/>
-            <line clip-path="url(#clipPath15)" fill="none" x1="139" x2="147"
-                  y1="38" y2="38"/>
             <line clip-path="url(#clipPath15)" fill="none" x1="198" x2="206"
                   y1="38" y2="38"/>
             <line clip-path="url(#clipPath15)" fill="none" x1="206" x2="259"
                   y1="38" y2="38"/>
             <line clip-path="url(#clipPath15)" fill="none" x1="259" x2="267"
+                  y1="38" y2="38"/>
+            <line clip-path="url(#clipPath15)" fill="none" x1="78" x2="86"
+                  y1="38" y2="38"/>
+            <line clip-path="url(#clipPath15)" fill="none" x1="86" x2="139"
+                  y1="38" y2="38"/>
+            <line clip-path="url(#clipPath15)" fill="none" x1="139" x2="147"
                   y1="38" y2="38"/>
         </g>
     </g>
