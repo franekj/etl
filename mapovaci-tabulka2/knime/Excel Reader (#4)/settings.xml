@@ -52,7 +52,7 @@
 </config>
 </config>
 <entry key="sheet_selection" type="xstring" value="NAME"/>
-<entry key="sheet_name" type="xstring" value="ELEMENTÁRNÍ INDIKÁTOR"/>
+<entry key="sheet_name" type="xstring" value="OZSD PUBPLIKACE"/>
 <entry key="sheet_index" type="xint" value="0"/>
 <entry key="table_contains_column_names" type="xboolean" value="true"/>
 <entry key="column_names_row_number" type="xlong" value="1"/>
@@ -68,14 +68,14 @@
 <entry key="root_path_Internals" type="xstring" value="knime://knime.workflow/../input"/>
 <config key="datatable_spec_Internals">
 <entry key="spec_name" type="xstring" value="default"/>
-<entry key="number_columns" type="xint" value="50"/>
+<entry key="number_columns" type="xint" value="71"/>
 <config key="column_spec_0">
 <entry key="column_name" type="xstring" value="OZSD%%00010Rok"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
 </config>
 <config key="column_domain"/>
 <config key="column_properties"/>
@@ -118,7 +118,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_4">
-<entry key="column_name" type="xstring" value="OZSD kontrola%%00010Kód indikátoru"/>
+<entry key="column_name" type="xstring" value="OZSD kontrola%%00010Kód názvu"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -226,12 +226,12 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_13">
-<entry key="column_name" type="xstring" value="OIPEP%%00010Datum publikace interně"/>
+<entry key="column_name" type="xstring" value="OIPEP%%00010Publikace interně"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCell"/>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
 </config>
 <config key="column_domain"/>
 <config key="column_properties"/>
@@ -262,12 +262,12 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_16">
-<entry key="column_name" type="xstring" value="OZSD%%00010Publikace datum"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010Publikace veřejně"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCell"/>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
 </config>
 <config key="column_domain"/>
 <config key="column_properties"/>
@@ -310,7 +310,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_20">
-<entry key="column_name" type="xstring" value="OZSD%%00010CSV"/>
+<entry key="column_name" type="xstring" value="Do databáze"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -322,7 +322,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_21">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS1"/>
+<entry key="column_name" type="xstring" value="Do portálu"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -334,7 +334,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_22">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS2"/>
+<entry key="column_name" type="xstring" value="Jazyk datové sady"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -346,7 +346,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_23">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS3"/>
+<entry key="column_name" type="xstring" value="Kontaktní bod – kurátor CENIA – e-mail"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -358,7 +358,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_24">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS4"/>
+<entry key="column_name" type="xstring" value="Kontaktní bod – kurátor CENIA – jméno"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -370,7 +370,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_25">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS5"/>
+<entry key="column_name" type="xstring" value="Kontaktní bod – poskytovatel dat – e-mail"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -382,7 +382,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_26">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS6"/>
+<entry key="column_name" type="xstring" value="Kontaktní bod – poskytovatel dat – jméno"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -394,7 +394,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_27">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS7"/>
+<entry key="column_name" type="xstring" value="Kontaktní bod – správce CENIA – e-mail"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -406,7 +406,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_28">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS8"/>
+<entry key="column_name" type="xstring" value="Kontaktní bod – správce CENIA – jméno"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -418,7 +418,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_29">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS9"/>
+<entry key="column_name" type="xstring" value="Otevřená data"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -430,7 +430,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_30">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS10"/>
+<entry key="column_name" type="xstring" value="Periodicita aktualizace"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -442,7 +442,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_31">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS11"/>
+<entry key="column_name" type="xstring" value="Poskytovatel"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -454,7 +454,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_32">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS12"/>
+<entry key="column_name" type="xstring" value="Související geografické území"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -466,7 +466,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_33">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS13"/>
+<entry key="column_name" type="xstring" value="Stav redakce záznamu"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -478,7 +478,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_34">
-<entry key="column_name" type="xstring" value="OZSD%%00010DS14"/>
+<entry key="column_name" type="xstring" value="Enviromentální téma"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -490,7 +490,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_35">
-<entry key="column_name" type="xstring" value="OZSD%%00010Referenční indikátor (před rozpadem na elementární)"/>
+<entry key="column_name" type="xstring" value="Téma datové sady"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -502,7 +502,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_36">
-<entry key="column_name" type="xstring" value="Zpráva o ŽP%%00010ANO/NE"/>
+<entry key="column_name" type="xstring" value="Autorské právo"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -514,7 +514,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_37">
-<entry key="column_name" type="xstring" value="Zpráva o ŽP%%00010Publikovaný indikátor"/>
+<entry key="column_name" type="xstring" value="Originální databáze"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -526,7 +526,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_38">
-<entry key="column_name" type="xstring" value="Zpráva o ŽP%%00010Publikovaný kód"/>
+<entry key="column_name" type="xstring" value="Zvláštní práva pořizovatele databáze"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -538,7 +538,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_39">
-<entry key="column_name" type="xstring" value="Zpráva o ŽP%%00010Vizualizace"/>
+<entry key="column_name" type="xstring" value="Osobní údaje"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -550,7 +550,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_40">
-<entry key="column_name" type="xstring" value="SP ŽP%%00010ANO/NE"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010CSV"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -562,7 +562,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_41">
-<entry key="column_name" type="xstring" value="SP ŽP%%00010Publikovaný indikátor"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010DS1"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -574,7 +574,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_42">
-<entry key="column_name" type="xstring" value="SP ŽP%%00010Publikovaný kód"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010DS2"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -586,7 +586,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_43">
-<entry key="column_name" type="xstring" value="SP ŽP%%00010Vizualizace"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010DS3"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -598,7 +598,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_44">
-<entry key="column_name" type="xstring" value="Krajské Zprávy%%00010ANO/NE"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010DS4"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -610,7 +610,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_45">
-<entry key="column_name" type="xstring" value="Krajské Zprávy%%00010Krajské Zprávy"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010DS5"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -622,7 +622,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_46">
-<entry key="column_name" type="xstring" value="Krajské Zprávy%%00010Publikovaný kód"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010DS6"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -634,7 +634,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_47">
-<entry key="column_name" type="xstring" value="Indikátory zranitelnosti%%00010ANO/NE"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010DS7"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -646,7 +646,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_48">
-<entry key="column_name" type="xstring" value="Indikátory zranitelnosti%%00010Krajské Zprávy"/>
+<entry key="column_name" type="xstring" value="OZSD%%00010DS8"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -658,7 +658,259 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_49">
+<entry key="column_name" type="xstring" value="OZSD%%00010DS9"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_50">
+<entry key="column_name" type="xstring" value="OZSD%%00010DS10"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_51">
+<entry key="column_name" type="xstring" value="OZSD%%00010DS11"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_52">
+<entry key="column_name" type="xstring" value="OZSD%%00010DS12"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_53">
+<entry key="column_name" type="xstring" value="OZSD%%00010DS13"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_54">
+<entry key="column_name" type="xstring" value="OZSD%%00010DS14"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_55">
+<entry key="column_name" type="xstring" value="OZSD%%00010Referenční indikátor (před rozpadem na elementární)"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_56">
+<entry key="column_name" type="xstring" value="Zpráva o ŽP%%00010ANO/NE"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_57">
+<entry key="column_name" type="xstring" value="Zpráva o ŽP%%00010Publikovaný indikátor"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_58">
+<entry key="column_name" type="xstring" value="Zpráva o ŽP%%00010Publikovaný kód"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_59">
+<entry key="column_name" type="xstring" value="Zpráva o ŽP%%00010Vizualizace"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_60">
+<entry key="column_name" type="xstring" value="SP ŽP%%00010ANO/NE"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_61">
+<entry key="column_name" type="xstring" value="SP ŽP%%00010Publikovaný indikátor"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_62">
+<entry key="column_name" type="xstring" value="SP ŽP%%00010Publikovaný kód"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_63">
+<entry key="column_name" type="xstring" value="SP ŽP%%00010Vizualizace"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_64">
+<entry key="column_name" type="xstring" value="Krajské Zprávy%%00010ANO/NE"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_65">
+<entry key="column_name" type="xstring" value="Krajské Zprávy%%00010Krajské Zprávy"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_66">
+<entry key="column_name" type="xstring" value="Krajské Zprávy%%00010Publikovaný kód"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_67">
+<entry key="column_name" type="xstring" value="Indikátory zranitelnosti%%00010ANO/NE"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_68">
+<entry key="column_name" type="xstring" value="Indikátory zranitelnosti%%00010Krajské Zprávy"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_69">
 <entry key="column_name" type="xstring" value="Indikátory zranitelnosti%%00010Publikovaný kód"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_70">
+<entry key="column_name" type="xstring" value="Sloupec1"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -676,12 +928,12 @@
 </config>
 <config key="individual_specs_Internals">
 <config key="individual_spec_0">
-<entry key="array-size" type="xint" value="50"/>
+<entry key="array-size" type="xint" value="71"/>
 <entry key="0" type="xstring" value="OZSD%%00010Rok"/>
 <entry key="1" type="xstring" value="OZSD%%00010Téma"/>
 <entry key="2" type="xstring" value="OZSD%%00010Elementární indikátor - název"/>
 <entry key="3" type="xstring" value="OZSD%%00010Kód indikátoru"/>
-<entry key="4" type="xstring" value="OZSD kontrola%%00010Kód indikátoru"/>
+<entry key="4" type="xstring" value="OZSD kontrola%%00010Kód názvu"/>
 <entry key="5" type="xstring" value="OZSD%%00010CKAN"/>
 <entry key="6" type="xstring" value="OIPEP%%00010Popis pro Envirometr"/>
 <entry key="7" type="xstring" value="OIPEP%%00010Kurátor"/>
@@ -690,55 +942,76 @@
 <entry key="10" type="xstring" value="OIPEP%%00010Status vizualizace"/>
 <entry key="11" type="xstring" value="OIPEP%%00010Registr kvality"/>
 <entry key="12" type="xstring" value="OIPEP%%00010Kontrolor"/>
-<entry key="13" type="xstring" value="OIPEP%%00010Datum publikace interně"/>
+<entry key="13" type="xstring" value="OIPEP%%00010Publikace interně"/>
 <entry key="14" type="xstring" value="OIPEP%%00010*Poznámka k indikátoru"/>
 <entry key="15" type="xstring" value="OZSD%%00010Kontrolor"/>
-<entry key="16" type="xstring" value="OZSD%%00010Publikace datum"/>
+<entry key="16" type="xstring" value="OZSD%%00010Publikace veřejně"/>
 <entry key="17" type="xstring" value="OZSD%%00010Envirometr"/>
 <entry key="18" type="xstring" value="OZSD%%00010Tagy"/>
 <entry key="19" type="xstring" value="OZSD%%00010Zobrazit na Envirometru"/>
-<entry key="20" type="xstring" value="OZSD%%00010CSV"/>
-<entry key="21" type="xstring" value="OZSD%%00010DS1"/>
-<entry key="22" type="xstring" value="OZSD%%00010DS2"/>
-<entry key="23" type="xstring" value="OZSD%%00010DS3"/>
-<entry key="24" type="xstring" value="OZSD%%00010DS4"/>
-<entry key="25" type="xstring" value="OZSD%%00010DS5"/>
-<entry key="26" type="xstring" value="OZSD%%00010DS6"/>
-<entry key="27" type="xstring" value="OZSD%%00010DS7"/>
-<entry key="28" type="xstring" value="OZSD%%00010DS8"/>
-<entry key="29" type="xstring" value="OZSD%%00010DS9"/>
-<entry key="30" type="xstring" value="OZSD%%00010DS10"/>
-<entry key="31" type="xstring" value="OZSD%%00010DS11"/>
-<entry key="32" type="xstring" value="OZSD%%00010DS12"/>
-<entry key="33" type="xstring" value="OZSD%%00010DS13"/>
-<entry key="34" type="xstring" value="OZSD%%00010DS14"/>
-<entry key="35" type="xstring" value="OZSD%%00010Referenční indikátor (před rozpadem na elementární)"/>
-<entry key="36" type="xstring" value="Zpráva o ŽP%%00010ANO/NE"/>
-<entry key="37" type="xstring" value="Zpráva o ŽP%%00010Publikovaný indikátor"/>
-<entry key="38" type="xstring" value="Zpráva o ŽP%%00010Publikovaný kód"/>
-<entry key="39" type="xstring" value="Zpráva o ŽP%%00010Vizualizace"/>
-<entry key="40" type="xstring" value="SP ŽP%%00010ANO/NE"/>
-<entry key="41" type="xstring" value="SP ŽP%%00010Publikovaný indikátor"/>
-<entry key="42" type="xstring" value="SP ŽP%%00010Publikovaný kód"/>
-<entry key="43" type="xstring" value="SP ŽP%%00010Vizualizace"/>
-<entry key="44" type="xstring" value="Krajské Zprávy%%00010ANO/NE"/>
-<entry key="45" type="xstring" value="Krajské Zprávy%%00010Krajské Zprávy"/>
-<entry key="46" type="xstring" value="Krajské Zprávy%%00010Publikovaný kód"/>
-<entry key="47" type="xstring" value="Indikátory zranitelnosti%%00010ANO/NE"/>
-<entry key="48" type="xstring" value="Indikátory zranitelnosti%%00010Krajské Zprávy"/>
-<entry key="49" type="xstring" value="Indikátory zranitelnosti%%00010Publikovaný kód"/>
+<entry key="20" type="xstring" value="Do databáze"/>
+<entry key="21" type="xstring" value="Do portálu"/>
+<entry key="22" type="xstring" value="Jazyk datové sady"/>
+<entry key="23" type="xstring" value="Kontaktní bod – kurátor CENIA – e-mail"/>
+<entry key="24" type="xstring" value="Kontaktní bod – kurátor CENIA – jméno"/>
+<entry key="25" type="xstring" value="Kontaktní bod – poskytovatel dat – e-mail"/>
+<entry key="26" type="xstring" value="Kontaktní bod – poskytovatel dat – jméno"/>
+<entry key="27" type="xstring" value="Kontaktní bod – správce CENIA – e-mail"/>
+<entry key="28" type="xstring" value="Kontaktní bod – správce CENIA – jméno"/>
+<entry key="29" type="xstring" value="Otevřená data"/>
+<entry key="30" type="xstring" value="Periodicita aktualizace"/>
+<entry key="31" type="xstring" value="Poskytovatel"/>
+<entry key="32" type="xstring" value="Související geografické území"/>
+<entry key="33" type="xstring" value="Stav redakce záznamu"/>
+<entry key="34" type="xstring" value="Enviromentální téma"/>
+<entry key="35" type="xstring" value="Téma datové sady"/>
+<entry key="36" type="xstring" value="Autorské právo"/>
+<entry key="37" type="xstring" value="Originální databáze"/>
+<entry key="38" type="xstring" value="Zvláštní práva pořizovatele databáze"/>
+<entry key="39" type="xstring" value="Osobní údaje"/>
+<entry key="40" type="xstring" value="OZSD%%00010CSV"/>
+<entry key="41" type="xstring" value="OZSD%%00010DS1"/>
+<entry key="42" type="xstring" value="OZSD%%00010DS2"/>
+<entry key="43" type="xstring" value="OZSD%%00010DS3"/>
+<entry key="44" type="xstring" value="OZSD%%00010DS4"/>
+<entry key="45" type="xstring" value="OZSD%%00010DS5"/>
+<entry key="46" type="xstring" value="OZSD%%00010DS6"/>
+<entry key="47" type="xstring" value="OZSD%%00010DS7"/>
+<entry key="48" type="xstring" value="OZSD%%00010DS8"/>
+<entry key="49" type="xstring" value="OZSD%%00010DS9"/>
+<entry key="50" type="xstring" value="OZSD%%00010DS10"/>
+<entry key="51" type="xstring" value="OZSD%%00010DS11"/>
+<entry key="52" type="xstring" value="OZSD%%00010DS12"/>
+<entry key="53" type="xstring" value="OZSD%%00010DS13"/>
+<entry key="54" type="xstring" value="OZSD%%00010DS14"/>
+<entry key="55" type="xstring" value="OZSD%%00010Referenční indikátor (před rozpadem na elementární)"/>
+<entry key="56" type="xstring" value="Zpráva o ŽP%%00010ANO/NE"/>
+<entry key="57" type="xstring" value="Zpráva o ŽP%%00010Publikovaný indikátor"/>
+<entry key="58" type="xstring" value="Zpráva o ŽP%%00010Publikovaný kód"/>
+<entry key="59" type="xstring" value="Zpráva o ŽP%%00010Vizualizace"/>
+<entry key="60" type="xstring" value="SP ŽP%%00010ANO/NE"/>
+<entry key="61" type="xstring" value="SP ŽP%%00010Publikovaný indikátor"/>
+<entry key="62" type="xstring" value="SP ŽP%%00010Publikovaný kód"/>
+<entry key="63" type="xstring" value="SP ŽP%%00010Vizualizace"/>
+<entry key="64" type="xstring" value="Krajské Zprávy%%00010ANO/NE"/>
+<entry key="65" type="xstring" value="Krajské Zprávy%%00010Krajské Zprávy"/>
+<entry key="66" type="xstring" value="Krajské Zprávy%%00010Publikovaný kód"/>
+<entry key="67" type="xstring" value="Indikátory zranitelnosti%%00010ANO/NE"/>
+<entry key="68" type="xstring" value="Indikátory zranitelnosti%%00010Krajské Zprávy"/>
+<entry key="69" type="xstring" value="Indikátory zranitelnosti%%00010Publikovaný kód"/>
+<entry key="70" type="xstring" value="Sloupec1"/>
 </config>
 </config>
 <config key="production_paths_Internals">
-<entry key="production_path_0_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
-<entry key="production_path_0_converter_src" type="xstring" value="java.lang.Integer"/>
-<entry key="production_path_0_converter_dst" type="xstring" value="Number (integer)"/>
-<entry key="production_path_0_converter_name" type="xstring" value="Integer"/>
+<entry key="production_path_0_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_0_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_0_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_0_converter_name" type="xstring" value="String"/>
 <config key="production_path_0_converter_config"/>
-<entry key="production_path_0_producer" type="xstring" value="INT-&gt;java.lang.Integer"/>
-<entry key="production_path_0_producer_src" type="xstring" value="INT"/>
-<entry key="production_path_0_producer_dst" type="xstring" value="java.lang.Integer"/>
-<entry key="production_path_0_producer_name" type="xstring" value="java.lang.Integer"/>
+<entry key="production_path_0_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_0_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_0_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_0_producer_name" type="xstring" value="java.lang.String"/>
 <config key="production_path_0_producer_config"/>
 <entry key="production_path_1_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
 <entry key="production_path_1_converter_src" type="xstring" value="java.lang.String"/>
@@ -860,15 +1133,15 @@
 <entry key="production_path_12_producer_dst" type="xstring" value="java.lang.String"/>
 <entry key="production_path_12_producer_name" type="xstring" value="java.lang.String"/>
 <config key="production_path_12_producer_config"/>
-<entry key="production_path_13_converter" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCellFactory.create(class java.time.LocalDate)"/>
-<entry key="production_path_13_converter_src" type="xstring" value="java.time.LocalDate"/>
-<entry key="production_path_13_converter_dst" type="xstring" value="Local Date"/>
-<entry key="production_path_13_converter_name" type="xstring" value="LocalDate"/>
+<entry key="production_path_13_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_13_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_13_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_13_converter_name" type="xstring" value="String"/>
 <config key="production_path_13_converter_config"/>
-<entry key="production_path_13_producer" type="xstring" value="LOCAL_DATE-&gt;java.time.LocalDate"/>
-<entry key="production_path_13_producer_src" type="xstring" value="LOCAL_DATE"/>
-<entry key="production_path_13_producer_dst" type="xstring" value="java.time.LocalDate"/>
-<entry key="production_path_13_producer_name" type="xstring" value="java.time.LocalDate"/>
+<entry key="production_path_13_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_13_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_13_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_13_producer_name" type="xstring" value="java.lang.String"/>
 <config key="production_path_13_producer_config"/>
 <entry key="production_path_14_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
 <entry key="production_path_14_converter_src" type="xstring" value="java.lang.String"/>
@@ -890,15 +1163,15 @@
 <entry key="production_path_15_producer_dst" type="xstring" value="java.lang.String"/>
 <entry key="production_path_15_producer_name" type="xstring" value="java.lang.String"/>
 <config key="production_path_15_producer_config"/>
-<entry key="production_path_16_converter" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCellFactory.create(class java.time.LocalDate)"/>
-<entry key="production_path_16_converter_src" type="xstring" value="java.time.LocalDate"/>
-<entry key="production_path_16_converter_dst" type="xstring" value="Local Date"/>
-<entry key="production_path_16_converter_name" type="xstring" value="LocalDate"/>
+<entry key="production_path_16_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_16_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_16_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_16_converter_name" type="xstring" value="String"/>
 <config key="production_path_16_converter_config"/>
-<entry key="production_path_16_producer" type="xstring" value="LOCAL_DATE-&gt;java.time.LocalDate"/>
-<entry key="production_path_16_producer_src" type="xstring" value="LOCAL_DATE"/>
-<entry key="production_path_16_producer_dst" type="xstring" value="java.time.LocalDate"/>
-<entry key="production_path_16_producer_name" type="xstring" value="java.time.LocalDate"/>
+<entry key="production_path_16_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_16_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_16_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_16_producer_name" type="xstring" value="java.lang.String"/>
 <config key="production_path_16_producer_config"/>
 <entry key="production_path_17_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
 <entry key="production_path_17_converter_src" type="xstring" value="java.lang.String"/>
@@ -1230,15 +1503,225 @@
 <entry key="production_path_49_producer_dst" type="xstring" value="java.lang.String"/>
 <entry key="production_path_49_producer_name" type="xstring" value="java.lang.String"/>
 <config key="production_path_49_producer_config"/>
-<entry key="num_production_paths_Internals" type="xint" value="50"/>
+<entry key="production_path_50_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_50_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_50_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_50_converter_name" type="xstring" value="String"/>
+<config key="production_path_50_converter_config"/>
+<entry key="production_path_50_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_50_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_50_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_50_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_50_producer_config"/>
+<entry key="production_path_51_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_51_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_51_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_51_converter_name" type="xstring" value="String"/>
+<config key="production_path_51_converter_config"/>
+<entry key="production_path_51_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_51_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_51_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_51_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_51_producer_config"/>
+<entry key="production_path_52_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_52_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_52_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_52_converter_name" type="xstring" value="String"/>
+<config key="production_path_52_converter_config"/>
+<entry key="production_path_52_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_52_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_52_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_52_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_52_producer_config"/>
+<entry key="production_path_53_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_53_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_53_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_53_converter_name" type="xstring" value="String"/>
+<config key="production_path_53_converter_config"/>
+<entry key="production_path_53_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_53_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_53_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_53_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_53_producer_config"/>
+<entry key="production_path_54_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_54_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_54_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_54_converter_name" type="xstring" value="String"/>
+<config key="production_path_54_converter_config"/>
+<entry key="production_path_54_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_54_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_54_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_54_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_54_producer_config"/>
+<entry key="production_path_55_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_55_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_55_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_55_converter_name" type="xstring" value="String"/>
+<config key="production_path_55_converter_config"/>
+<entry key="production_path_55_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_55_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_55_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_55_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_55_producer_config"/>
+<entry key="production_path_56_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_56_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_56_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_56_converter_name" type="xstring" value="String"/>
+<config key="production_path_56_converter_config"/>
+<entry key="production_path_56_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_56_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_56_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_56_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_56_producer_config"/>
+<entry key="production_path_57_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_57_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_57_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_57_converter_name" type="xstring" value="String"/>
+<config key="production_path_57_converter_config"/>
+<entry key="production_path_57_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_57_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_57_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_57_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_57_producer_config"/>
+<entry key="production_path_58_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_58_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_58_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_58_converter_name" type="xstring" value="String"/>
+<config key="production_path_58_converter_config"/>
+<entry key="production_path_58_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_58_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_58_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_58_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_58_producer_config"/>
+<entry key="production_path_59_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_59_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_59_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_59_converter_name" type="xstring" value="String"/>
+<config key="production_path_59_converter_config"/>
+<entry key="production_path_59_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_59_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_59_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_59_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_59_producer_config"/>
+<entry key="production_path_60_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_60_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_60_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_60_converter_name" type="xstring" value="String"/>
+<config key="production_path_60_converter_config"/>
+<entry key="production_path_60_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_60_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_60_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_60_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_60_producer_config"/>
+<entry key="production_path_61_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_61_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_61_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_61_converter_name" type="xstring" value="String"/>
+<config key="production_path_61_converter_config"/>
+<entry key="production_path_61_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_61_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_61_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_61_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_61_producer_config"/>
+<entry key="production_path_62_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_62_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_62_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_62_converter_name" type="xstring" value="String"/>
+<config key="production_path_62_converter_config"/>
+<entry key="production_path_62_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_62_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_62_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_62_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_62_producer_config"/>
+<entry key="production_path_63_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_63_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_63_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_63_converter_name" type="xstring" value="String"/>
+<config key="production_path_63_converter_config"/>
+<entry key="production_path_63_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_63_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_63_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_63_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_63_producer_config"/>
+<entry key="production_path_64_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_64_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_64_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_64_converter_name" type="xstring" value="String"/>
+<config key="production_path_64_converter_config"/>
+<entry key="production_path_64_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_64_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_64_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_64_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_64_producer_config"/>
+<entry key="production_path_65_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_65_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_65_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_65_converter_name" type="xstring" value="String"/>
+<config key="production_path_65_converter_config"/>
+<entry key="production_path_65_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_65_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_65_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_65_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_65_producer_config"/>
+<entry key="production_path_66_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_66_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_66_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_66_converter_name" type="xstring" value="String"/>
+<config key="production_path_66_converter_config"/>
+<entry key="production_path_66_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_66_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_66_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_66_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_66_producer_config"/>
+<entry key="production_path_67_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_67_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_67_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_67_converter_name" type="xstring" value="String"/>
+<config key="production_path_67_converter_config"/>
+<entry key="production_path_67_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_67_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_67_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_67_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_67_producer_config"/>
+<entry key="production_path_68_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_68_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_68_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_68_converter_name" type="xstring" value="String"/>
+<config key="production_path_68_converter_config"/>
+<entry key="production_path_68_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_68_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_68_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_68_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_68_producer_config"/>
+<entry key="production_path_69_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_69_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_69_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_69_converter_name" type="xstring" value="String"/>
+<config key="production_path_69_converter_config"/>
+<entry key="production_path_69_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_69_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_69_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_69_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_69_producer_config"/>
+<entry key="production_path_70_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="production_path_70_converter_src" type="xstring" value="java.lang.String"/>
+<entry key="production_path_70_converter_dst" type="xstring" value="String"/>
+<entry key="production_path_70_converter_name" type="xstring" value="String"/>
+<config key="production_path_70_converter_config"/>
+<entry key="production_path_70_producer" type="xstring" value="STRING-&gt;java.lang.String"/>
+<entry key="production_path_70_producer_src" type="xstring" value="STRING"/>
+<entry key="production_path_70_producer_dst" type="xstring" value="java.lang.String"/>
+<entry key="production_path_70_producer_name" type="xstring" value="java.lang.String"/>
+<config key="production_path_70_producer_config"/>
+<entry key="num_production_paths_Internals" type="xint" value="71"/>
 </config>
 <config key="original_names_Internals">
-<entry key="array-size" type="xint" value="50"/>
+<entry key="array-size" type="xint" value="71"/>
 <entry key="0" type="xstring" value="OZSD%%00010Rok"/>
 <entry key="1" type="xstring" value="OZSD%%00010Téma"/>
 <entry key="2" type="xstring" value="OZSD%%00010Elementární indikátor - název"/>
 <entry key="3" type="xstring" value="OZSD%%00010Kód indikátoru"/>
-<entry key="4" type="xstring" value="OZSD kontrola%%00010Kód indikátoru"/>
+<entry key="4" type="xstring" value="OZSD kontrola%%00010Kód názvu"/>
 <entry key="5" type="xstring" value="OZSD%%00010CKAN"/>
 <entry key="6" type="xstring" value="OIPEP%%00010Popis pro Envirometr"/>
 <entry key="7" type="xstring" value="OIPEP%%00010Kurátor"/>
@@ -1247,46 +1730,67 @@
 <entry key="10" type="xstring" value="OIPEP%%00010Status vizualizace"/>
 <entry key="11" type="xstring" value="OIPEP%%00010Registr kvality"/>
 <entry key="12" type="xstring" value="OIPEP%%00010Kontrolor"/>
-<entry key="13" type="xstring" value="OIPEP%%00010Datum publikace interně"/>
+<entry key="13" type="xstring" value="OIPEP%%00010Publikace interně"/>
 <entry key="14" type="xstring" value="OIPEP%%00010*Poznámka k indikátoru"/>
 <entry key="15" type="xstring" value="OZSD%%00010Kontrolor"/>
-<entry key="16" type="xstring" value="OZSD%%00010Publikace datum"/>
+<entry key="16" type="xstring" value="OZSD%%00010Publikace veřejně"/>
 <entry key="17" type="xstring" value="OZSD%%00010Envirometr"/>
 <entry key="18" type="xstring" value="OZSD%%00010Tagy"/>
 <entry key="19" type="xstring" value="OZSD%%00010Zobrazit na Envirometru"/>
-<entry key="20" type="xstring" value="OZSD%%00010CSV"/>
-<entry key="21" type="xstring" value="OZSD%%00010DS1"/>
-<entry key="22" type="xstring" value="OZSD%%00010DS2"/>
-<entry key="23" type="xstring" value="OZSD%%00010DS3"/>
-<entry key="24" type="xstring" value="OZSD%%00010DS4"/>
-<entry key="25" type="xstring" value="OZSD%%00010DS5"/>
-<entry key="26" type="xstring" value="OZSD%%00010DS6"/>
-<entry key="27" type="xstring" value="OZSD%%00010DS7"/>
-<entry key="28" type="xstring" value="OZSD%%00010DS8"/>
-<entry key="29" type="xstring" value="OZSD%%00010DS9"/>
-<entry key="30" type="xstring" value="OZSD%%00010DS10"/>
-<entry key="31" type="xstring" value="OZSD%%00010DS11"/>
-<entry key="32" type="xstring" value="OZSD%%00010DS12"/>
-<entry key="33" type="xstring" value="OZSD%%00010DS13"/>
-<entry key="34" type="xstring" value="OZSD%%00010DS14"/>
-<entry key="35" type="xstring" value="OZSD%%00010Referenční indikátor (před rozpadem na elementární)"/>
-<entry key="36" type="xstring" value="Zpráva o ŽP%%00010ANO/NE"/>
-<entry key="37" type="xstring" value="Zpráva o ŽP%%00010Publikovaný indikátor"/>
-<entry key="38" type="xstring" value="Zpráva o ŽP%%00010Publikovaný kód"/>
-<entry key="39" type="xstring" value="Zpráva o ŽP%%00010Vizualizace"/>
-<entry key="40" type="xstring" value="SP ŽP%%00010ANO/NE"/>
-<entry key="41" type="xstring" value="SP ŽP%%00010Publikovaný indikátor"/>
-<entry key="42" type="xstring" value="SP ŽP%%00010Publikovaný kód"/>
-<entry key="43" type="xstring" value="SP ŽP%%00010Vizualizace"/>
-<entry key="44" type="xstring" value="Krajské Zprávy%%00010ANO/NE"/>
-<entry key="45" type="xstring" value="Krajské Zprávy%%00010Krajské Zprávy"/>
-<entry key="46" type="xstring" value="Krajské Zprávy%%00010Publikovaný kód"/>
-<entry key="47" type="xstring" value="Indikátory zranitelnosti%%00010ANO/NE"/>
-<entry key="48" type="xstring" value="Indikátory zranitelnosti%%00010Krajské Zprávy"/>
-<entry key="49" type="xstring" value="Indikátory zranitelnosti%%00010Publikovaný kód"/>
+<entry key="20" type="xstring" value="Do databáze"/>
+<entry key="21" type="xstring" value="Do portálu"/>
+<entry key="22" type="xstring" value="Jazyk datové sady"/>
+<entry key="23" type="xstring" value="Kontaktní bod – kurátor CENIA – e-mail"/>
+<entry key="24" type="xstring" value="Kontaktní bod – kurátor CENIA – jméno"/>
+<entry key="25" type="xstring" value="Kontaktní bod – poskytovatel dat – e-mail"/>
+<entry key="26" type="xstring" value="Kontaktní bod – poskytovatel dat – jméno"/>
+<entry key="27" type="xstring" value="Kontaktní bod – správce CENIA – e-mail"/>
+<entry key="28" type="xstring" value="Kontaktní bod – správce CENIA – jméno"/>
+<entry key="29" type="xstring" value="Otevřená data"/>
+<entry key="30" type="xstring" value="Periodicita aktualizace"/>
+<entry key="31" type="xstring" value="Poskytovatel"/>
+<entry key="32" type="xstring" value="Související geografické území"/>
+<entry key="33" type="xstring" value="Stav redakce záznamu"/>
+<entry key="34" type="xstring" value="Enviromentální téma"/>
+<entry key="35" type="xstring" value="Téma datové sady"/>
+<entry key="36" type="xstring" value="Autorské právo"/>
+<entry key="37" type="xstring" value="Originální databáze"/>
+<entry key="38" type="xstring" value="Zvláštní práva pořizovatele databáze"/>
+<entry key="39" type="xstring" value="Osobní údaje"/>
+<entry key="40" type="xstring" value="OZSD%%00010CSV"/>
+<entry key="41" type="xstring" value="OZSD%%00010DS1"/>
+<entry key="42" type="xstring" value="OZSD%%00010DS2"/>
+<entry key="43" type="xstring" value="OZSD%%00010DS3"/>
+<entry key="44" type="xstring" value="OZSD%%00010DS4"/>
+<entry key="45" type="xstring" value="OZSD%%00010DS5"/>
+<entry key="46" type="xstring" value="OZSD%%00010DS6"/>
+<entry key="47" type="xstring" value="OZSD%%00010DS7"/>
+<entry key="48" type="xstring" value="OZSD%%00010DS8"/>
+<entry key="49" type="xstring" value="OZSD%%00010DS9"/>
+<entry key="50" type="xstring" value="OZSD%%00010DS10"/>
+<entry key="51" type="xstring" value="OZSD%%00010DS11"/>
+<entry key="52" type="xstring" value="OZSD%%00010DS12"/>
+<entry key="53" type="xstring" value="OZSD%%00010DS13"/>
+<entry key="54" type="xstring" value="OZSD%%00010DS14"/>
+<entry key="55" type="xstring" value="OZSD%%00010Referenční indikátor (před rozpadem na elementární)"/>
+<entry key="56" type="xstring" value="Zpráva o ŽP%%00010ANO/NE"/>
+<entry key="57" type="xstring" value="Zpráva o ŽP%%00010Publikovaný indikátor"/>
+<entry key="58" type="xstring" value="Zpráva o ŽP%%00010Publikovaný kód"/>
+<entry key="59" type="xstring" value="Zpráva o ŽP%%00010Vizualizace"/>
+<entry key="60" type="xstring" value="SP ŽP%%00010ANO/NE"/>
+<entry key="61" type="xstring" value="SP ŽP%%00010Publikovaný indikátor"/>
+<entry key="62" type="xstring" value="SP ŽP%%00010Publikovaný kód"/>
+<entry key="63" type="xstring" value="SP ŽP%%00010Vizualizace"/>
+<entry key="64" type="xstring" value="Krajské Zprávy%%00010ANO/NE"/>
+<entry key="65" type="xstring" value="Krajské Zprávy%%00010Krajské Zprávy"/>
+<entry key="66" type="xstring" value="Krajské Zprávy%%00010Publikovaný kód"/>
+<entry key="67" type="xstring" value="Indikátory zranitelnosti%%00010ANO/NE"/>
+<entry key="68" type="xstring" value="Indikátory zranitelnosti%%00010Krajské Zprávy"/>
+<entry key="69" type="xstring" value="Indikátory zranitelnosti%%00010Publikovaný kód"/>
+<entry key="70" type="xstring" value="Sloupec1"/>
 </config>
 <config key="positional_mapping_Internals">
-<entry key="array-size" type="xint" value="50"/>
+<entry key="array-size" type="xint" value="71"/>
 <entry key="0" type="xint" value="0"/>
 <entry key="1" type="xint" value="1"/>
 <entry key="2" type="xint" value="2"/>
@@ -1337,9 +1841,30 @@
 <entry key="47" type="xint" value="47"/>
 <entry key="48" type="xint" value="48"/>
 <entry key="49" type="xint" value="49"/>
+<entry key="50" type="xint" value="50"/>
+<entry key="51" type="xint" value="51"/>
+<entry key="52" type="xint" value="52"/>
+<entry key="53" type="xint" value="53"/>
+<entry key="54" type="xint" value="54"/>
+<entry key="55" type="xint" value="55"/>
+<entry key="56" type="xint" value="56"/>
+<entry key="57" type="xint" value="57"/>
+<entry key="58" type="xint" value="58"/>
+<entry key="59" type="xint" value="59"/>
+<entry key="60" type="xint" value="60"/>
+<entry key="61" type="xint" value="61"/>
+<entry key="62" type="xint" value="62"/>
+<entry key="63" type="xint" value="63"/>
+<entry key="64" type="xint" value="64"/>
+<entry key="65" type="xint" value="65"/>
+<entry key="66" type="xint" value="66"/>
+<entry key="67" type="xint" value="67"/>
+<entry key="68" type="xint" value="68"/>
+<entry key="69" type="xint" value="69"/>
+<entry key="70" type="xint" value="70"/>
 </config>
 <config key="keep_Internals">
-<entry key="array-size" type="xint" value="50"/>
+<entry key="array-size" type="xint" value="71"/>
 <entry key="0" type="xboolean" value="true"/>
 <entry key="1" type="xboolean" value="true"/>
 <entry key="2" type="xboolean" value="true"/>
@@ -1390,8 +1915,29 @@
 <entry key="47" type="xboolean" value="true"/>
 <entry key="48" type="xboolean" value="true"/>
 <entry key="49" type="xboolean" value="true"/>
+<entry key="50" type="xboolean" value="true"/>
+<entry key="51" type="xboolean" value="true"/>
+<entry key="52" type="xboolean" value="true"/>
+<entry key="53" type="xboolean" value="true"/>
+<entry key="54" type="xboolean" value="true"/>
+<entry key="55" type="xboolean" value="true"/>
+<entry key="56" type="xboolean" value="true"/>
+<entry key="57" type="xboolean" value="true"/>
+<entry key="58" type="xboolean" value="true"/>
+<entry key="59" type="xboolean" value="true"/>
+<entry key="60" type="xboolean" value="true"/>
+<entry key="61" type="xboolean" value="true"/>
+<entry key="62" type="xboolean" value="true"/>
+<entry key="63" type="xboolean" value="true"/>
+<entry key="64" type="xboolean" value="true"/>
+<entry key="65" type="xboolean" value="true"/>
+<entry key="66" type="xboolean" value="true"/>
+<entry key="67" type="xboolean" value="true"/>
+<entry key="68" type="xboolean" value="true"/>
+<entry key="69" type="xboolean" value="true"/>
+<entry key="70" type="xboolean" value="true"/>
 </config>
-<entry key="unknown_column_position_Internals" type="xint" value="50"/>
+<entry key="unknown_column_position_Internals" type="xint" value="71"/>
 <entry key="include_unknown_columns_Internals" type="xboolean" value="true"/>
 <entry key="enforce_types" type="xboolean" value="true"/>
 <entry key="column_filter_mode_Internals" type="xstring" value="UNION"/>
